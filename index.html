@@ -8,7 +8,7 @@
 </head>
 <body>
 
-    <div class="container">
+    <div class="container" onsubmit="return fillup()">
         <div class="ab">
             <img src="./Untitled.jpg" alt="Our Internship Moto" id="photo">
         </div><br>
@@ -35,15 +35,15 @@
             <input type="number" id="num1" placeholder="Enter your number" required>
         </div>
         <div class="mn">
-            <label>Candidate Whatsup Number *</label>
+            <label>Candidate Whatsup Number *</label><br><br>
             <input type="number" id="num2" placeholder="Enter your number" required>
         </div><br>
         <div class="clg">
-            <label>College Name</label>
+            <label>College Name</label><br><br>
             <input type="text" id="college" placeholder="Your College Name" required>
         </div><br>
         <div class="state">
-            <label>Your College state</label>
+            <label>Your College state</label><br><br>
             <input list="State" type="text" id="s1" required placeholder="Your College State">
             <datalist id="State">
                 <option value="Andra Pradesh">Andra Pradesh</option>
@@ -79,11 +79,11 @@
             </datalist>
         </div><br>
         <div class="branch">
-            <lebel>Candidate Branch of Study *</lebel>
+            <lebel>Candidate Branch of Study *</lebel><br><br>
             <input type="text" id="bra" required placeholder="Your Branch">
         </div><br>
         <div class="year">
-            <label>CANDIDATE YEAR OF STUDY *</label><br>
+            <label>CANDIDATE YEAR OF STUDY *</label><br><br>
             <input type="radio" id="1st" value="1st" name="year" required>
             <label for="1st">1st</label>
             <input type="radio" id="2nd" value="2nd" name="year" required>
@@ -92,16 +92,20 @@
             <label for="3rd">3rd</label>
             <input type="radio" id="4th" value="4th"  name="year" required>
             <label for="4th">4th</label>
-        </div><br>
+        </div>
         <div class="pdf">
-            <label>Uplord Your Lastest Sem Result</label><br>
+            <label>Uplord Your Lastest Sem Result</label><br><br>
             <input type="file" id="file" required>
         </div>
     </div>
-
-
-
-
+    <div class="about">
+        <label id="bhai">Tell us about yourself</label><br>
+        <textarea id="text"></textarea>
+        <p id="print"></p>
+    </div>
+    <div class="submit">
+        <button><a href="./afsd.html"><input type="submit" id="sub" onclick="fillup()"></a></button>
+    </div>
 
 
     <script src="./script.js"></script>

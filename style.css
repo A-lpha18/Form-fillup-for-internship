@@ -79,3 +79,97 @@
                 4px 4px 4px 4px;
     text-align: left;
 }
+.clg{
+    background-color: bisque;
+    border-radius: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+    padding: 10px 10px;
+    box-shadow: -4px -4px 4px 4px,
+                4px 4px 4px 4px;
+    text-align: left;
+}
+.state{
+    background-color: bisque;
+    border-radius: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+    padding: 10px 10px;
+    box-shadow: -4px -4px 4px 4px,
+                4px 4px 4px 4px;
+    text-align: left;
+}
+.branch{
+    background-color: bisque;
+    border-radius: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+    padding: 10px 10px;
+    box-shadow: -4px -4px 4px 4px,
+                4px 4px 4px 4px;
+    text-align: left;
+}
+.year{
+    background-color: bisque;
+    border-radius: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+    padding: 10px 10px;
+    box-shadow: -4px -4px 4px 4px,
+                4px 4px 4px 4px;
+    text-align: left;
+}
+.pdf{
+    background-color: bisque;
+    border-radius: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+    padding: 10px 10px;
+    box-shadow: -4px -4px 4px 4px,
+                4px 4px 4px 4px;
+    text-align: left;
+}
+#text{
+    margin-left: 25%;
+    width: 50%;
+    height: 50%;
+}
+.about p{
+    text-align: center;
+}
+.about{
+    background-color: bisque;
+    border-radius: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+    padding: 10px 10px;
+    box-shadow: -4px -4px 4px 4px,
+                4px 4px 4px 4px;
+    text-align: left;
+}
+.submit{
+    text-align: center;
+    background-color: bisque;
+    border-radius: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 50px;
+    padding: 10px 10px;
+    box-shadow: -4px -4px 4px 4px,
+                4px 4px 4px 4px;
+}
+#sub{
+    background-color: transparent;
+}
